@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/META-INF/xc-service-manage-cms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/META-INF/xc-service-manage-cms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -48,6 +62,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1XjXZDhHefkc5rWWTiPfTHIWjY1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -65,6 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -72,30 +93,16 @@
       <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-cms\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
-    <configuration name="CmsPageRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.test" />
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +118,22 @@
       <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
       <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
       <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsPageRepositoryTest.testFindAllByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindAllByExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,9 +187,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ManageCmsApplication" />
+        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAllByExample" />
+        <item itemvalue="Application.test" />
         <item itemvalue="JUnit.CmsPageRepositoryTest.testSave" />
         <item itemvalue="JUnit.CmsPageRepositoryTest.testFindPage" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +210,99 @@
       <workItem from="1581570841827" duration="831000" />
       <workItem from="1581589837838" duration="1676000" />
       <workItem from="1581591547609" duration="855000" />
-      <workItem from="1581644958672" duration="4726000" />
+      <workItem from="1581644958672" duration="6236000" />
+      <workItem from="1581732597670" duration="612000" />
+      <workItem from="1581734358303" duration="227000" />
+      <workItem from="1581735093189" duration="90000" />
+      <workItem from="1581735698600" duration="111000" />
+      <workItem from="1581735836285" duration="251000" />
+      <workItem from="1581736103919" duration="222000" />
+      <workItem from="1581736337991" duration="36000" />
+      <workItem from="1581736383976" duration="121000" />
+      <workItem from="1581736517325" duration="24000" />
+      <workItem from="1581736549892" duration="469000" />
+      <workItem from="1581737039749" duration="1045000" />
+      <workItem from="1581738470265" duration="756000" />
+      <workItem from="1581855382639" duration="724000" />
+      <workItem from="1581856195134" duration="89000" />
+      <workItem from="1581989149054" duration="1552000" />
+      <workItem from="1581996019173" duration="1475000" />
+      <workItem from="1582071955082" duration="6269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1875" height="383" key="GridCell.Tab.0.bottom" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.0.center" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.0.left" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.0.right" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.1.bottom" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.1.center" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.1.left" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.1.right" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.2.bottom" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.2.center" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.2.left" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="383" key="GridCell.Tab.2.right" timestamp="1582078929484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="383" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state x="772" y="276" key="SettingsEditor" timestamp="1581736094037">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="772" y="276" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581736094037" />
+    <state x="334" y="149" key="new project wizard" timestamp="1581856283061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="334" y="149" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581856283061" />
   </component>
 </project>

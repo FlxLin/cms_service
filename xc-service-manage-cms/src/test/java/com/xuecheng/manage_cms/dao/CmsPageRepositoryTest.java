@@ -5,9 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.*;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -42,6 +40,20 @@ public class CmsPageRepositoryTest {
         System.out.println(all);
     }
 
+    @Test
+    public void testFindAllByExample(){
+        int page = 0;//从0开始
+        int size = 10;
+        Pageable pageable = PageRequest.of(page,size);
+
+        CmsPage cmsPage = new CmsPage();
+        cmsPage.setPageAliase("轮播");
+        ExampleMatcher exampleMatcher = ExampleMatcher.matching().withMatcher("pageAliase",ExampleMatcher.GenericPropertyMatchers.contains());
+        Example<CmsPage> example = Example.of(cmsPage,exampleMatcher);
+        Page<CmsPage> all = cmsPageRepository.findAll(example, pageable);
+
+        System.out.println(all.getContent());
+    }
     //修改
     @Test
     public void testSave(){
