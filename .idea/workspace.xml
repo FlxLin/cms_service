@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/META-INF/xc-service-manage-cms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/META-INF/xc-service-manage-cms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +226,10 @@
       <workItem from="1581989149054" duration="1552000" />
       <workItem from="1581996019173" duration="1475000" />
       <workItem from="1582071955082" duration="6269000" />
+      <workItem from="1582078940662" duration="197000" />
+      <workItem from="1582109830393" duration="3002000" />
+      <workItem from="1582113304940" duration="3533000" />
+      <workItem from="1582160050175" duration="6049000" />
     </task>
     <servers />
   </component>
@@ -248,38 +250,42 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1875" height="383" key="GridCell.Tab.0.bottom" timestamp="1582078929484">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582164592848">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.0.center" timestamp="1582078929484">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582164592848" />
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1582164967727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.0.left" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
+    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1582164967727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.0.right" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
+    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1582164967727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.1.bottom" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
+    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1582164967727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.1.center" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
+    <state width="1875" height="306" key="GridCell.Tab.1.bottom" timestamp="1582164967728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.1.left" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
+    <state width="1875" height="306" key="GridCell.Tab.1.center" timestamp="1582164967728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.1.right" timestamp="1582078929484">
+    <state width="1875" height="306" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
+    <state width="1875" height="306" key="GridCell.Tab.1.left" timestamp="1582164967727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
+    <state width="1875" height="306" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
+    <state width="1875" height="306" key="GridCell.Tab.1.right" timestamp="1582164967728">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="306" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
     <state width="1875" height="383" key="GridCell.Tab.2.bottom" timestamp="1582078929484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -296,13 +302,24 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="383" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state x="772" y="276" key="SettingsEditor" timestamp="1581736094037">
+    <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582161047809">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="772" y="276" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581736094037" />
+    <state x="509" y="203" width="998" height="789" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582161047809" />
     <state x="334" y="149" key="new project wizard" timestamp="1581856283061">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="334" y="149" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581856283061" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
