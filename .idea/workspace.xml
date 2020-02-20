@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +221,7 @@
       <workItem from="1582078940662" duration="197000" />
       <workItem from="1582109830393" duration="3002000" />
       <workItem from="1582113304940" duration="3533000" />
-      <workItem from="1582160050175" duration="6049000" />
+      <workItem from="1582160050175" duration="6967000" />
     </task>
     <servers />
   </component>
@@ -254,38 +246,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582164592848" />
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1582164967727">
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1582168892654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
-    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1582164967727">
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
+    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1582168892654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
-    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1582164967727">
+    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
+    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1582168892654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
-    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1582164967727">
+    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
+    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1582168892654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
-    <state width="1875" height="306" key="GridCell.Tab.1.bottom" timestamp="1582164967728">
+    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
+    <state width="1875" height="306" key="GridCell.Tab.1.bottom" timestamp="1582168892655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
-    <state width="1875" height="306" key="GridCell.Tab.1.center" timestamp="1582164967728">
+    <state width="1875" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
+    <state width="1875" height="306" key="GridCell.Tab.1.center" timestamp="1582168892655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
-    <state width="1875" height="306" key="GridCell.Tab.1.left" timestamp="1582164967727">
+    <state width="1875" height="306" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
+    <state width="1875" height="306" key="GridCell.Tab.1.left" timestamp="1582168892655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967727" />
-    <state width="1875" height="306" key="GridCell.Tab.1.right" timestamp="1582164967728">
+    <state width="1875" height="306" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
+    <state width="1875" height="306" key="GridCell.Tab.1.right" timestamp="1582168892655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582164967728" />
+    <state width="1875" height="306" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
     <state width="1875" height="383" key="GridCell.Tab.2.bottom" timestamp="1582078929484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
