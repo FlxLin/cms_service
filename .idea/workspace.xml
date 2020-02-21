@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/resources/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +80,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XjXZDhHefkc5rWWTiPfTHIWjY1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,9 +93,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manage-cms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-freemarker/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,11 +110,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
+      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\main\resources" />
       <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-cms\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
+  <component name="RunManager" selected="JUnit.FreemarkerTest.testGenerateHtml">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.test" />
       <module name="xc-service-manage-cms" />
@@ -130,34 +165,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testFindPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
+    <configuration name="FreemarkerTest.testGenerateHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-freemarker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindPage" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.test.freemarker" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.freemarker.FreemarkerTest" />
+      <option name="METHOD_NAME" value="testGenerateHtml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
+    <configuration name="FreemarkerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-freemarker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.test.freemarker.FreemarkerTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtml" />
+        <item itemvalue="Spring Boot.FreemarkerTestApplication" />
         <item itemvalue="Spring Boot.ManageCmsApplication" />
         <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAllByExample" />
         <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testSave" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindPage" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +254,10 @@
       <workItem from="1582078940662" duration="197000" />
       <workItem from="1582109830393" duration="3002000" />
       <workItem from="1582113304940" duration="3533000" />
-      <workItem from="1582160050175" duration="7534000" />
+      <workItem from="1582160050175" duration="7794000" />
+      <workItem from="1582193796627" duration="6474000" />
+      <workItem from="1582260558368" duration="2057000" />
+      <workItem from="1582281025031" duration="8946000" />
     </task>
     <servers />
   </component>
@@ -243,65 +278,73 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582164592848">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198143466">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582164592848" />
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1582168892654">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582198143466" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582287439909">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
-    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1582168892654">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582287439909" />
+    <state width="1338" height="378" key="GridCell.Tab.0.bottom" timestamp="1582291549558">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
-    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1582168892654">
+    <state width="1338" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
+    <state width="1338" height="378" key="GridCell.Tab.0.center" timestamp="1582291549558">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
-    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1582168892654">
+    <state width="1338" height="378" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
+    <state width="1338" height="378" key="GridCell.Tab.0.left" timestamp="1582291549558">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892654" />
-    <state width="1875" height="306" key="GridCell.Tab.1.bottom" timestamp="1582168892655">
+    <state width="1338" height="378" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
+    <state width="1338" height="378" key="GridCell.Tab.0.right" timestamp="1582291549558">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
-    <state width="1875" height="306" key="GridCell.Tab.1.center" timestamp="1582168892655">
+    <state width="1338" height="378" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
+    <state width="1875" height="378" key="GridCell.Tab.1.bottom" timestamp="1582291549554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
-    <state width="1875" height="306" key="GridCell.Tab.1.left" timestamp="1582168892655">
+    <state width="1875" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
+    <state width="1875" height="378" key="GridCell.Tab.1.center" timestamp="1582291549554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
-    <state width="1875" height="306" key="GridCell.Tab.1.right" timestamp="1582168892655">
+    <state width="1875" height="378" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
+    <state width="1875" height="378" key="GridCell.Tab.1.left" timestamp="1582291549554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="306" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582168892655" />
-    <state width="1875" height="383" key="GridCell.Tab.2.bottom" timestamp="1582078929484">
+    <state width="1875" height="378" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
+    <state width="1875" height="378" key="GridCell.Tab.1.right" timestamp="1582291549554">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.2.center" timestamp="1582078929484">
+    <state width="1875" height="378" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
+    <state width="1875" height="312" key="GridCell.Tab.2.bottom" timestamp="1582262636087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.2.left" timestamp="1582078929484">
+    <state width="1875" height="312" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
+    <state width="1875" height="312" key="GridCell.Tab.2.center" timestamp="1582262636087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state width="1875" height="383" key="GridCell.Tab.2.right" timestamp="1582078929484">
+    <state width="1875" height="312" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
+    <state width="1875" height="312" key="GridCell.Tab.2.left" timestamp="1582262636087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="383" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582078929484" />
-    <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582161047809">
+    <state width="1875" height="312" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
+    <state width="1875" height="312" key="GridCell.Tab.2.right" timestamp="1582262636087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="509" y="203" width="998" height="789" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582161047809" />
-    <state x="334" y="149" key="new project wizard" timestamp="1581856283061">
+    <state width="1875" height="312" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
+    <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582282161958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="334" y="149" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1581856283061" />
+    <state x="509" y="203" width="998" height="789" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582282161958" />
+    <state x="334" y="149" key="new project wizard" timestamp="1582282157426">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="334" y="149" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582282157426" />
+    <state x="508" y="401" key="search.everywhere.popup" timestamp="1582262636081">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="508" y="401" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636081" />
   </component>
 </project>
