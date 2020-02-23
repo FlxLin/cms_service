@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/resources/templates/test1.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/FreemarkerTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/FreemarkerTestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/controller/FreemarkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/controller/FreemarkerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/target/test-classes/com/xuecheng/test/freemarker/FreemarkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/test-classes/com/xuecheng/test/freemarker/FreemarkerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -96,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-freemarker/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-freemarker/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,34 +104,31 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.manage_cms" />
+      <recent name="com.xuecheng.manage_cms.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\main\resources\templates" />
       <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
       <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\main\resources" />
       <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-cms\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.manage_cms" />
+      <recent name="com.xuecheng.manage_cms.dao" />
+      <recent name="com.xuecheng.manage_cms.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FreemarkerTest.testGenerateHtml">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.test" />
-      <module name="xc-service-manage-cms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RestTemplateTest.testGetPageHtml">
     <configuration name="CmsPageRepositoryTest.testFindAll" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,47 +140,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testFindAllByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridFsTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindAllByExample" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.GridFsTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FreemarkerTest.testGenerateHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-freemarker" />
+    <configuration name="GridFsTest.testStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.test.freemarker" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.freemarker.FreemarkerTest" />
-      <option name="METHOD_NAME" value="testGenerateHtml" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.GridFsTest" />
+      <option name="METHOD_NAME" value="testStore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FreemarkerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test-freemarker" />
+    <configuration name="RestTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.test.freemarker.FreemarkerTestApplication" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.RestTemplateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTemplateTest.testGetPageHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.RestTemplateTest" />
+      <option name="METHOD_NAME" value="testGetPageHtml" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtml" />
-        <item itemvalue="Spring Boot.FreemarkerTestApplication" />
+        <item itemvalue="JUnit.RestTemplateTest.testGetPageHtml" />
         <item itemvalue="Spring Boot.ManageCmsApplication" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAllByExample" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.RestTemplateTest" />
+        <item itemvalue="JUnit.GridFsTest.testFindOne" />
+        <item itemvalue="JUnit.GridFsTest.testStore" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +267,11 @@
       <workItem from="1582193796627" duration="6474000" />
       <workItem from="1582260558368" duration="2057000" />
       <workItem from="1582281025031" duration="8946000" />
+      <workItem from="1582291568109" duration="58000" />
+      <workItem from="1582355108866" duration="4772000" />
+      <workItem from="1582423022116" duration="7465000" />
+      <workItem from="1582432122747" duration="1787000" />
+      <workItem from="1582456327819" duration="8051000" />
     </task>
     <servers />
   </component>
@@ -278,62 +292,70 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198143466">
+    <state x="552" y="198" key="#Inspections" timestamp="1582429466318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582198143466" />
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1582429466318" />
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582427695386">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582427695386" />
+    <state x="700" y="398" width="521" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582461781334">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="700" y="398" width="521" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1582461781334" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582287439909">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582287439909" />
-    <state width="1338" height="378" key="GridCell.Tab.0.bottom" timestamp="1582291549558">
+    <state width="1875" height="358" key="GridCell.Tab.0.bottom" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1338" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
-    <state width="1338" height="378" key="GridCell.Tab.0.center" timestamp="1582291549558">
+    <state width="1875" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.0.center" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1338" height="378" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
-    <state width="1338" height="378" key="GridCell.Tab.0.left" timestamp="1582291549558">
+    <state width="1875" height="358" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.0.left" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1338" height="378" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
-    <state width="1338" height="378" key="GridCell.Tab.0.right" timestamp="1582291549558">
+    <state width="1875" height="358" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.0.right" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1338" height="378" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549558" />
-    <state width="1875" height="378" key="GridCell.Tab.1.bottom" timestamp="1582291549554">
+    <state width="1875" height="358" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
-    <state width="1875" height="378" key="GridCell.Tab.1.center" timestamp="1582291549554">
+    <state width="1875" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.1.center" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="378" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
-    <state width="1875" height="378" key="GridCell.Tab.1.left" timestamp="1582291549554">
+    <state width="1875" height="358" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.1.left" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="378" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
-    <state width="1875" height="378" key="GridCell.Tab.1.right" timestamp="1582291549554">
+    <state width="1875" height="358" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.1.right" timestamp="1582465467315">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="378" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582291549554" />
-    <state width="1875" height="312" key="GridCell.Tab.2.bottom" timestamp="1582262636087">
+    <state width="1875" height="358" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
+    <state width="1875" height="358" key="GridCell.Tab.2.bottom" timestamp="1582465400143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="312" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
-    <state width="1875" height="312" key="GridCell.Tab.2.center" timestamp="1582262636087">
+    <state width="1875" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
+    <state width="1875" height="358" key="GridCell.Tab.2.center" timestamp="1582465400143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="312" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
-    <state width="1875" height="312" key="GridCell.Tab.2.left" timestamp="1582262636087">
+    <state width="1875" height="358" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
+    <state width="1875" height="358" key="GridCell.Tab.2.left" timestamp="1582465400143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="312" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
-    <state width="1875" height="312" key="GridCell.Tab.2.right" timestamp="1582262636087">
+    <state width="1875" height="358" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
+    <state width="1875" height="358" key="GridCell.Tab.2.right" timestamp="1582465400143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="312" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636087" />
+    <state width="1875" height="358" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
     <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582282161958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -342,9 +364,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="334" y="149" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582282157426" />
+    <state x="615" y="250" key="run.anything.popup" timestamp="1582430107702">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582430107702" />
     <state x="508" y="401" key="search.everywhere.popup" timestamp="1582262636081">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="508" y="401" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

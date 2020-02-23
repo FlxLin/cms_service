@@ -1,6 +1,7 @@
 package com.xuecheng.test.freemarker;
 
 import com.xuecheng.test.freemarker.model.Student;
+import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -46,6 +47,40 @@ public class FreemarkerTest {
         fileOutputStream.close();
         inputStream.close();
     }
+
+    @Test
+    public void testGenerateHtmlByString() throws IOException, TemplateException {
+        //定义配置类
+        Configuration configuration = new Configuration(Configuration.getVersion());
+        //定义模板
+        String templateString ="" +
+                "<html>\n" +
+                " <head></head>\n" +
+                " <body>\n" +
+                " 名称：${name}\n" +
+                " </body>\n" +
+                "</html>";
+        //模板加载器
+        StringTemplateLoader stringTemplateLoader = new StringTemplateLoader();
+        stringTemplateLoader.putTemplate("template",templateString);
+        //在配置中设置模板加载器
+        configuration.setTemplateLoader(stringTemplateLoader);
+        //得到模板
+        Template template = configuration.getTemplate("template", "utf-8");
+
+        //定义数据模型
+        Map map = getMap();
+
+        //生成文件
+        String content = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+        InputStream inputStream = IOUtils.toInputStream(content);
+        FileOutputStream fileOutputStream = new FileOutputStream(new File("d:/test.html"));
+        IOUtils.copy(inputStream,fileOutputStream);
+        fileOutputStream.close();
+        inputStream.close();
+    }
+
+
 
     public static Map getMap(){
         Map map = new HashMap();
