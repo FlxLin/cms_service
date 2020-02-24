@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration//相当于bean
 public class MongoConfig {
 
-    @Value("${spring.data.mongodb.database}")
+    @Value("${spring.data.mongodb.database}")//指定数据库
     String db;
 
     @Bean

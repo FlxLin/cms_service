@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index_banner.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsConfigRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsTemplateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/FreemarkerTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/FreemarkerTestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/controller/FreemarkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/controller/FreemarkerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/target/test-classes/com/xuecheng/test/freemarker/FreemarkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/test-classes/com/xuecheng/test/freemarker/FreemarkerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +105,7 @@
       <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestTemplateTest.testGetPageHtml">
+  <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
     <configuration name="CmsPageRepositoryTest.testFindAll" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
@@ -218,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestTemplateTest.testGetPageHtml" />
         <item itemvalue="Spring Boot.ManageCmsApplication" />
+        <item itemvalue="JUnit.RestTemplateTest.testGetPageHtml" />
         <item itemvalue="JUnit.RestTemplateTest" />
         <item itemvalue="JUnit.GridFsTest.testFindOne" />
         <item itemvalue="JUnit.GridFsTest.testStore" />
@@ -271,7 +253,8 @@
       <workItem from="1582355108866" duration="4772000" />
       <workItem from="1582423022116" duration="7465000" />
       <workItem from="1582432122747" duration="1787000" />
-      <workItem from="1582456327819" duration="8051000" />
+      <workItem from="1582456327819" duration="9089000" />
+      <workItem from="1582502683389" duration="2764000" />
     </task>
     <servers />
   </component>
@@ -308,54 +291,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582287439909" />
-    <state width="1875" height="358" key="GridCell.Tab.0.bottom" timestamp="1582465467315">
+    <state width="1875" height="271" key="GridCell.Tab.0.bottom" timestamp="1582505642112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.0.center" timestamp="1582465467315">
+    <state width="1875" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582505642112" />
+    <state width="1875" height="271" key="GridCell.Tab.0.center" timestamp="1582505642112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.0.left" timestamp="1582465467315">
+    <state width="1875" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582505642112" />
+    <state width="1875" height="271" key="GridCell.Tab.0.left" timestamp="1582505642111">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.0.right" timestamp="1582465467315">
+    <state width="1875" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582505642111" />
+    <state width="1875" height="271" key="GridCell.Tab.0.right" timestamp="1582505642112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1582465467315">
+    <state width="1875" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582505642112" />
+    <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1582466316471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.1.center" timestamp="1582465467315">
+    <state width="1875" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316471" />
+    <state width="1875" height="358" key="GridCell.Tab.1.center" timestamp="1582466316470">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.1.left" timestamp="1582465467315">
+    <state width="1875" height="358" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316470" />
+    <state width="1875" height="358" key="GridCell.Tab.1.left" timestamp="1582466316470">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.1.right" timestamp="1582465467315">
+    <state width="1875" height="358" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316470" />
+    <state width="1875" height="358" key="GridCell.Tab.1.right" timestamp="1582466316470">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465467315" />
-    <state width="1875" height="358" key="GridCell.Tab.2.bottom" timestamp="1582465400143">
+    <state width="1875" height="358" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316470" />
+    <state width="1875" height="358" key="GridCell.Tab.2.bottom" timestamp="1582466316469">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
-    <state width="1875" height="358" key="GridCell.Tab.2.center" timestamp="1582465400143">
+    <state width="1875" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316469" />
+    <state width="1875" height="358" key="GridCell.Tab.2.center" timestamp="1582466316469">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
-    <state width="1875" height="358" key="GridCell.Tab.2.left" timestamp="1582465400143">
+    <state width="1875" height="358" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316469" />
+    <state width="1875" height="358" key="GridCell.Tab.2.left" timestamp="1582466316468">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
-    <state width="1875" height="358" key="GridCell.Tab.2.right" timestamp="1582465400143">
+    <state width="1875" height="358" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316468" />
+    <state width="1875" height="358" key="GridCell.Tab.2.right" timestamp="1582466316469">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="358" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582465400143" />
+    <state width="1875" height="358" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582466316469" />
     <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582282161958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -372,21 +355,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="508" y="401" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582262636081" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java</url>
-          <line>214</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
