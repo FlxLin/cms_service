@@ -5,6 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>../test-freemarker</module>
+        <module>../test-rabbitmq-producer</module>
+        <module>../test-rabbitmq-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
