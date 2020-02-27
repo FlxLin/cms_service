@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 @ToString
 public class TeachplanNode extends Teachplan {
-
+    //作为查询课程计划的返回类
     List<TeachplanNode> children;
 
 }

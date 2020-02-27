@@ -12,9 +12,9 @@ import java.io.Serializable;
  */
 @Data
 @ToString
-@Entity
+@Entity//使用jdbc的注解
 @Table(name="teachplan")
-@GenericGenerator(name = "jpa-uuid", strategy = "uuid")
+@GenericGenerator(name = "jpa-uuid", strategy = "uuid")//id自动生成
 public class Teachplan implements Serializable {
     private static final long serialVersionUID = -916357110051689485L;
     @Id

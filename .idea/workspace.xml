@@ -2,34 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826867fd-093c-45ae-a524-68fb2796e44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nullfreemarkertestfreemarkertest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/RabbitmqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/ManageCmsClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/config/MongoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/config/RabbitmqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/dao/CmsPageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/dao/CmsSiteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/mq/ConsumerPostPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/xc‐service‐manage‐cms‐client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/ManageCourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseBaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/TeachplanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/test/java/com/xuecheng/manage_course/dao/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/ManageCourseApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseBaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/test-classes/com/xuecheng/manage_course/dao/TestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/xc-service-manage-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/CmsSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/CmsSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nullfreemarkertestfreemarkertest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/Teachplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/Teachplan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/ext/TeachplanNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/ext/TeachplanNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/target/classes/com/xuecheng/manage_cms_client/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/target/classes/com/xuecheng/manage_cms_client/service/PageService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc‐service‐manage‐cms‐client/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,7 +128,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2769784" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -120,20 +140,22 @@
       <recent name="com.xuecheng.manage_cms.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-course\src\main\resources\com\xuecheng\manage_course\dao" />
       <recent name="D:\Project\WebProject\ServiceProject\xc‐service‐manage‐cms‐client\src\main\resources" />
       <recent name="D:\Project\WebProject\ServiceProject\test-rabbitmq-consumer\src\main\java\com\xuecheng\test\rabbitmq" />
       <recent name="D:\Project\WebProject\ServiceProject\test-rabbitmq-consumer\src\main\resources" />
       <recent name="D:\Project\WebProject\ServiceProject\test-rabbitmq-producer\src\main\resources" />
-      <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.manage_course.dao" />
       <recent name="com.xuecheng.manage_cms.config" />
       <recent name="com.xuecheng.manage_cms_client.config" />
       <recent name="com.xuecheng.manage_cms_client.dao" />
       <recent name="com.xuecheng.test.rabbitmq.config" />
-      <recent name="com.xuecheng.rabbitmq" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-course\src\main\resources\com\xuecheng\manage_course\dao" />
+      <recent name="D:\Project\WebProject\ServiceProject\xc-service-manage-course\src\main\resources" />
       <recent name="D:\Project\WebProject\ServiceProject\test-freemarker\src\test" />
     </key>
   </component>
@@ -144,20 +166,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageCmsClientApplication">
-    <configuration name="Producer_routing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.rabbitmq.Producer_routing" />
-      <module name="test-rabbitmq-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ManageCourseApplication">
     <configuration name="CmsPageRepositoryTest.testFindAll" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
@@ -174,32 +183,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer_spring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-rabbitmq-producer" />
+    <configuration name="GridFsTest.testStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.test.rabbitmq.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.test.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.rabbitmq.Producer_spring" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.GridFsTest" />
+      <option name="METHOD_NAME" value="testStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.manage_course.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_course.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_course.dao.TestDao" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer_spring.testRabbitmq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-rabbitmq-producer" />
+    <configuration name="TestDao.testCourseBaseRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.test.rabbitmq.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_course.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.test.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.rabbitmq.Producer_spring" />
-      <option name="METHOD_NAME" value="testRabbitmq" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_course.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_course.dao.TestDao" />
+      <option name="METHOD_NAME" value="testCourseBaseRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testCourseMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.manage_course.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_course.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_course.dao.TestDao" />
+      <option name="METHOD_NAME" value="testCourseMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testFindTeachplan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.manage_course.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_course.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_course.dao.TestDao" />
+      <option name="METHOD_NAME" value="testFindTeachplan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,50 +277,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageCmsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="xc‐service‐manage‐cms‐client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms_client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_cms_client.ManageCmsClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test-rabbitmq-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.test.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.test.rabbitmq.TestRabbitmqApplication" />
+    <configuration name="ManageCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manage-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_course.ManageCourseApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Producer_routing" />
       <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAll" />
-      <item itemvalue="JUnit.Producer_spring" />
-      <item itemvalue="JUnit.Producer_spring.testRabbitmq" />
+      <item itemvalue="JUnit.TestDao.testCourseBaseRepository" />
+      <item itemvalue="JUnit.TestDao.testCourseMapper" />
+      <item itemvalue="JUnit.TestDao" />
+      <item itemvalue="JUnit.GridFsTest.testStore" />
       <item itemvalue="Spring Boot.FreemarkerTestApplication" />
       <item itemvalue="Spring Boot.ManageCmsApplication" />
-      <item itemvalue="Spring Boot.ManageCmsClientApplication" />
-      <item itemvalue="Spring Boot.TestRabbitmqApplication" />
+      <item itemvalue="Spring Boot.ManageCourseApplication" />
+      <item itemvalue="JUnit.TestDao.testFindTeachplan" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManageCmsClientApplication" />
-        <item itemvalue="JUnit.Producer_spring" />
-        <item itemvalue="Spring Boot.TestRabbitmqApplication" />
-        <item itemvalue="JUnit.Producer_spring.testRabbitmq" />
-        <item itemvalue="Application.Producer_routing" />
+        <item itemvalue="JUnit.TestDao.testFindTeachplan" />
+        <item itemvalue="JUnit.TestDao.testCourseMapper" />
+        <item itemvalue="JUnit.TestDao.testCourseBaseRepository" />
+        <item itemvalue="JUnit.TestDao" />
+        <item itemvalue="JUnit.GridFsTest.testStore" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +382,15 @@
       <workItem from="1582630293547" duration="3131000" />
       <workItem from="1582633470613" duration="1847000" />
       <workItem from="1582682077512" duration="7535000" />
-      <workItem from="1582706736223" duration="7253000" />
+      <workItem from="1582706736223" duration="8133000" />
+      <workItem from="1582765779963" duration="280000" />
+      <workItem from="1582766263837" duration="11000" />
+      <workItem from="1582766285245" duration="197000" />
+      <workItem from="1582766599153" duration="443000" />
+      <workItem from="1582767057728" duration="53000" />
+      <workItem from="1582767165535" duration="4077000" />
+      <workItem from="1582773594070" duration="5825000" />
+      <workItem from="1582791741397" duration="12410000" />
     </task>
     <servers />
   </component>
@@ -368,78 +414,90 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="198" key="#Inspections" timestamp="1582429466318">
+    <state x="552" y="198" key="#Assign_Data_Sources" timestamp="1582803101787">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1582429466318" />
+    <state x="552" y="198" key="#Assign_Data_Sources/0.0.1920.1080@0.0.1920.1080" timestamp="1582803101787" />
+    <state x="552" y="198" key="#Inspections" timestamp="1582773559107">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1582773559107" />
+    <state x="552" y="198" width="816" height="731" key="#Intentions" timestamp="1582773572309">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" width="816" height="731" key="#Intentions/0.0.1920.1080@0.0.1920.1080" timestamp="1582773572309" />
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582710077869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582710077869" />
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582709280767">
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582805866383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582709280767" />
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582805866383" />
     <state x="700" y="398" width="705" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582631187421">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="700" y="398" width="705" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1582631187421" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582287439909">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582777621338">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582287439909" />
-    <state width="1687" height="287" key="GridCell.Tab.0.bottom" timestamp="1582714953056">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582777621338" />
+    <state width="1687" height="277" key="GridCell.Tab.0.bottom" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.0.center" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="277" key="GridCell.Tab.0.center" timestamp="1582808106163">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.0.left" timestamp="1582714953055">
+    <state width="1687" height="277" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106163" />
+    <state width="1687" height="277" key="GridCell.Tab.0.left" timestamp="1582808106162">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953055" />
-    <state width="1687" height="287" key="GridCell.Tab.0.right" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106162" />
+    <state width="1687" height="277" key="GridCell.Tab.0.right" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.1.bottom" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="277" key="GridCell.Tab.1.bottom" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.1.center" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="277" key="GridCell.Tab.1.center" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.1.left" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="277" key="GridCell.Tab.1.left" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.1.right" timestamp="1582714953056">
+    <state width="1687" height="277" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="277" key="GridCell.Tab.1.right" timestamp="1582808106164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582714953056" />
-    <state width="1687" height="287" key="GridCell.Tab.2.bottom" timestamp="1582714680945">
+    <state width="1687" height="277" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582808106164" />
+    <state width="1687" height="327" key="GridCell.Tab.2.bottom" timestamp="1582800028830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582714680945" />
-    <state width="1687" height="287" key="GridCell.Tab.2.center" timestamp="1582714680944">
+    <state width="1687" height="327" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582800028830" />
+    <state width="1687" height="327" key="GridCell.Tab.2.center" timestamp="1582800028830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582714680944" />
-    <state width="1687" height="287" key="GridCell.Tab.2.left" timestamp="1582714680944">
+    <state width="1687" height="327" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582800028830" />
+    <state width="1687" height="327" key="GridCell.Tab.2.left" timestamp="1582800028830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582714680944" />
-    <state width="1687" height="287" key="GridCell.Tab.2.right" timestamp="1582714680944">
+    <state width="1687" height="327" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582800028830" />
+    <state width="1687" height="327" key="GridCell.Tab.2.right" timestamp="1582800028830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1687" height="287" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582714680944" />
-    <state x="509" y="203" width="998" height="789" key="SettingsEditor" timestamp="1582282161958">
+    <state width="1687" height="327" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582800028830" />
+    <state x="648" y="294" key="NewModule_or_Project.wizard" timestamp="1582777622863">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="509" y="203" width="998" height="789" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582282161958" />
+    <state x="648" y="294" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582777622863" />
+    <state x="112" y="184" width="998" height="789" key="SettingsEditor" timestamp="1582779109483">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="112" y="184" width="998" height="789" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582779109483" />
     <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582528645672">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -456,6 +514,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="508" y="401" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582603727248" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ServiceProject$Consumer.ic" NAME="Consumer Coverage Results" MODIFIED="1582539900080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
