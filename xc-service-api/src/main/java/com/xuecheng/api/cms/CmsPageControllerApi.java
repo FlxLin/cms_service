@@ -32,4 +32,5 @@ public interface CmsPageControllerApi {
     //发布页面
     @ApiOperation("发布页面")
     public ResponseResult post(String pageId);
+
 }

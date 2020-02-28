@@ -1,12 +1,19 @@
 package com.xuecheng.manage_course.service;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
+import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
+import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.exception.ExceptionCast;
 import com.xuecheng.framework.model.response.CommonCode;
+import com.xuecheng.framework.model.response.QueryResponseResult;
+import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
 import com.xuecheng.manage_course.dao.CourseBaseRepository;
+import com.xuecheng.manage_course.dao.CourseMapper;
 import com.xuecheng.manage_course.dao.TeachplanMapper;
 import com.xuecheng.manage_course.dao.TeachplanRepository;
 import org.apache.commons.lang3.StringUtils;
@@ -34,6 +41,9 @@ public class CourseService {
 
     @Autowired
     TeachplanRepository teachplanRepository;
+
+    @Autowired
+    CourseMapper courseMapper;
     //查询课程计划
     public TeachplanNode findTeachplanList(String courseId){
         TeachplanNode teachplanNode = teachplanMapper.selectList(courseId);
@@ -52,17 +62,17 @@ public class CourseService {
         //处理parentId
         String parentId = teachplan.getParentid();
         if(parentId == null){
-            String rootId = this.getTeachplanRoot(courseId);
+            parentId = this.getTeachplanRoot(courseId);
         }
         Teachplan teachplanNew = new Teachplan();
         Optional<Teachplan> optional = teachplanRepository.findById(parentId);
         String grade = optional.get().getGrade();
+        BeanUtils.copyProperties(teachplan,teachplanNew);
         if(grade.equals("1")){
             teachplanNew.setGrade("2");
         }else {
             teachplanNew.setGrade("3");
         }
-        BeanUtils.copyProperties(teachplan,teachplanNew);
         teachplanNew.setParentid(parentId);
         teachplanNew.setCourseid(courseId);
         teachplanRepository.save(teachplanNew);
@@ -90,4 +100,22 @@ public class CourseService {
         }
         return courseInfo.get(0).getId();
     }
+
+    //查询课程
+    public QueryResponseResult findAllCourseInfo(int page, int size, CourseListRequest courseListRequest){
+        PageHelper.startPage(page,size);
+        Page<CourseInfo> courseListPage = courseMapper.findCourseListPage(courseListRequest);
+        QueryResult queryResult = new QueryResult();
+        queryResult.setList(courseListPage.getResult());
+        queryResult.setTotal(courseListPage.getTotal());
+        return new QueryResponseResult(CommonCode.SUCCESS,queryResult);
+    }
+
+    //添加课程
+    public ResponseResult addCourseBase(CourseBase courseBase) {
+        CourseBase save = courseBaseRepository.save(courseBase);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+
 }
