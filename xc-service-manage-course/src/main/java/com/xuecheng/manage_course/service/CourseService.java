@@ -3,6 +3,7 @@ package com.xuecheng.manage_course.service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
@@ -12,10 +13,7 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.manage_course.dao.CourseBaseRepository;
-import com.xuecheng.manage_course.dao.CourseMapper;
-import com.xuecheng.manage_course.dao.TeachplanMapper;
-import com.xuecheng.manage_course.dao.TeachplanRepository;
+import com.xuecheng.manage_course.dao.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +42,9 @@ public class CourseService {
 
     @Autowired
     CourseMapper courseMapper;
+
+    @Autowired
+    CourseMarketRepository courseMarketRepository;
     //查询课程计划
     public TeachplanNode findTeachplanList(String courseId){
         TeachplanNode teachplanNode = teachplanMapper.selectList(courseId);
@@ -101,7 +102,7 @@ public class CourseService {
         return courseInfo.get(0).getId();
     }
 
-    //查询课程
+    //查询课程列表
     public QueryResponseResult findAllCourseInfo(int page, int size, CourseListRequest courseListRequest){
         PageHelper.startPage(page,size);
         Page<CourseInfo> courseListPage = courseMapper.findCourseListPage(courseListRequest);
@@ -117,5 +118,48 @@ public class CourseService {
         return new ResponseResult(CommonCode.SUCCESS);
     }
 
+    //查询课程信息
+    public CourseBase findCourseInfo(String courseId) {
+        Optional<CourseBase> optional = courseBaseRepository.findById(courseId);
+        if(!optional.isPresent()){
+            ExceptionCast.cast(CommonCode.INVALID_PARAM);
+        }
+        return optional.get();
+    }
 
+    //修改课程信息
+    @Transactional
+    public ResponseResult updateCourseBase(String courseId, CourseBase courseBase) {
+        Optional<CourseBase> optional = courseBaseRepository.findById(courseId);
+        if(!optional.isPresent()){
+            ExceptionCast.cast(CommonCode.INVALID_PARAM);
+        }
+        CourseBase course = optional.get();
+        BeanUtils.copyProperties(courseBase,course);
+        courseBaseRepository.save(course);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+    //课程营销信息查询
+    public CourseMarket getCourseMarketById(String courseId) {
+        Optional<CourseMarket> optional = courseMarketRepository.findById(courseId);
+        if(!optional.isPresent()){
+            ExceptionCast.cast(CommonCode.INVALID_PARAM);
+        }
+        return optional.get();
+    }
+
+    //修改课程营销信息
+    @Transactional
+    public ResponseResult updateCourseMarket(String courseId, CourseMarket courseMarket) {
+        Optional<CourseMarket> optional = courseMarketRepository.findById(courseId);
+        if(optional.isPresent()){
+            CourseMarket market = optional.get();
+            BeanUtils.copyProperties(courseMarket,market);
+            courseMarketRepository.save(market);
+            return ResponseResult.SUCCESS();
+        }
+        courseMarketRepository.save(courseMarket);
+        return ResponseResult.SUCCESS();
+    }
 }

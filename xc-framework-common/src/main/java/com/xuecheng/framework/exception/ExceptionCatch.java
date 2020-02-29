@@ -40,7 +40,8 @@ public class ExceptionCatch {
     @ExceptionHandler(Exception.class)//捕获Exception此类异常
     public ResponseResult exception(Exception exception){
         //记录日志
-        LOGGER.error("catch exception : {}",exception.getMessage());
+        String message = exception.getMessage();
+        LOGGER.error("catch exception : {}",message);
         if(EXCEPTIONS == null)
             EXCEPTIONS = builder.build();
         final ResultCode resultCode = EXCEPTIONS.get(exception.getClass());

@@ -2,6 +2,7 @@ package com.xuecheng.manage_course.controller;
 
 import com.xuecheng.api.course.CourseControllerApi;
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
@@ -45,5 +46,29 @@ public class CourseController implements CourseControllerApi {
     @PostMapping("/coursebase/add")
     public ResponseResult addCourseBase(@RequestBody CourseBase courseBase) {
         return courseService.addCourseBase(courseBase);
+    }
+
+    @Override
+    @GetMapping("/courseview/{courseid}")
+    public CourseBase findCourseBase(@PathVariable("courseid") String courseId) {
+        return courseService.findCourseInfo(courseId);
+    }
+
+    @Override
+    @PutMapping("/update/{courseId}")
+    public ResponseResult updateCourseBase(@PathVariable("courseId") String courseId,@RequestBody CourseBase courseBase) {
+        return courseService.updateCourseBase(courseId,courseBase);
+    }
+
+    @Override
+    @GetMapping("/market/{id}")
+    public CourseMarket getCourseMarketById(@PathVariable("id") String id) {
+        return courseService.getCourseMarketById(id);
+    }
+
+    @Override
+    @PutMapping("/market/update/{id}")
+    public ResponseResult updateCourseMarket(@PathVariable("id") String id,@RequestBody CourseMarket courseMarket) {
+        return courseService.updateCourseMarket(id, courseMarket);
     }
 }
